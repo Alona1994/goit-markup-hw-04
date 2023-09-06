@@ -253,6 +253,7 @@ font-weight: 500;
 .icon {
   
   border-radius: 4px;
+  margin-bottom: 8px;
 border: 1px solid var(--LIGHT-SLATE, #8E8F99);
 background: var(--CLOUD, #F4F4FD);
 width: 264px;
@@ -261,7 +262,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 flex-shrink: 0;
-margin-bottom: 8px;
+
 
 }
 
