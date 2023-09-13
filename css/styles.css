@@ -440,7 +440,14 @@ letter-spacing: 0.02em;
  }
 
 .img-cover-text {
-  
+  color: var(--CLOUD, #F4F4FD);
+/* Body */
+
+font-size: 16px;
+
+font-weight: 400;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.02em;
 
  }
 
