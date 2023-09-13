@@ -404,7 +404,6 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
 }
 .img-list{
   width: calc((100% - 48px) / 3);
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
  } 
 
  .img-desc {
@@ -436,26 +435,14 @@ line-height: 1.5; /* 150% */
 letter-spacing: 0.02em;
  }
 
- .img-cover{
-  position: relative;
-  overflow: hidden;
-
+ .img-cover {
 
  }
 
 .img-cover-text {
-  width: 296px;
-  color: var(--CLOUD, #F4F4FD);
+  
 
-/* Body */
-font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 1.5; /* 150% */
-letter-spacing: 0.02em;;
-position: absolute;
-}
+ }
 
 .footer {
  background: var(--navyblue, #2e2f42);
