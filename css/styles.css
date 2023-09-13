@@ -35,11 +35,9 @@ img {
   text-decoration: none;
 }
 
-.header-menu-link {
-  font-family: "Raleway", sans-serif;
+.header-menu-link:first-child {
   position: relative;
-  color: #404bbf;
-
+  color: #404bbf; 
 }
 .header-menu-link::after {
   content: '';
