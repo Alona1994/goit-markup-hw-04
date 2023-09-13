@@ -37,6 +37,18 @@ img {
 
 .header-page-link {
   font-family: "Raleway", sans-serif;
+  position: relative;
+  color: #404bbf;
+
+}
+.header-page-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -1px; 
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
 }
 .list-item-list {
   width: calc((100% - 72px) / 4);
