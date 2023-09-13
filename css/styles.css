@@ -351,12 +351,7 @@ font-weight: 700;
   border-radius: 0px 0px 4px 4px;
 background: var(--WHITE, #FFF);
 box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-display: inline-flex;
-padding-bottom: 0px;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-gap: 32px;
+
 }
 
 .team-team {
@@ -439,6 +434,27 @@ font-weight: 400;
 line-height: 1.5; /* 150% */
 letter-spacing: 0.02em;
  }
+
+ .img-cover{
+  position: relative;
+  overflow: hidden;
+
+
+ }
+
+.img-cover-text {
+  width: 296px;
+  color: var(--CLOUD, #F4F4FD);
+
+/* Body */
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.02em;;
+position: absolute;
+}
 
 .footer {
  background: var(--navyblue, #2e2f42);
