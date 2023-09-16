@@ -326,6 +326,10 @@ gap: 24px;
 
   }
 
+  .team-icon-img{
+    fill: #f4f4fd ;
+  }
+
 .team-icon-link{
   display: flex;
   align-items: center;
@@ -341,6 +345,8 @@ gap: 24px;
 .team-icon-link:focus {
   background-color: #404bbf;
 }
+
+
 
 .team-title {
   color: var(--navyblue, #2e2f42);
