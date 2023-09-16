@@ -310,8 +310,7 @@ flex-shrink: 0;
 
 
 .team-icon {
- width: 40px;
- height: 40px;
+ 
 
 }
 
@@ -320,6 +319,8 @@ flex-shrink: 0;
 justify-content: center;
 align-items: center;
 gap: 24px;
+width: 40px;
+ height: 40px;
 }
 
   .team-icon-svg{
