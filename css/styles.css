@@ -291,6 +291,7 @@ background: var(--OCEAN, #404BBF);
   padding: 120px 0;
 }
 
+/* --------------------SECTION 2------------------------- */
 .list-item {
   display: flex;
   gap: 24px;
@@ -347,6 +348,7 @@ flex-shrink: 0;
 }
 
 
+/* ------------- SECTION 3 ------------------------------ */
 
 .team-icon {
  width: 40px;
@@ -465,6 +467,9 @@ background: var(--WHITE, #FFF);
   letter-spacing: 0.02em;
   margin-bottom: 8px;
 }
+
+/* -------------- SECTION 4 ----------------------------- */
+
 .img {
   padding-top: 120px; padding-bottom: 120px;
 }
@@ -493,12 +498,12 @@ text-transform: capitalize;
 .img-list{
   width: calc((100% - 48px) / 3);
    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+   
   
   
  } 
  .img-list:hover {
-  box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 
