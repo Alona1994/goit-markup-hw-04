@@ -562,7 +562,7 @@ letter-spacing: 0.02em;
 .img-cover-text {
   padding: 40px 32px;
  position: absolute; 
- top: -300px;
+ top: 0;
   font-size: 16px;
   line-height: 1.5; 
   letter-spacing: 0.02em;
